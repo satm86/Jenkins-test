@@ -1,0 +1,27 @@
+{
+  "name": "jenkins-test",
+  "version": "1.0.0",
+  "description": "A repo to test Jenkins configurations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app-init": "npm install && gulp --gulpfile gulpfile.js",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satm86/Jenkins-test.git"
+  },
+  "author": "Mphammad Rahbar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satm86/Jenkins-test/issues"
+  },
+  "homepage": "https://github.com/satm86/Jenkins-test#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
+    "karma": "^4.4.1",
+    "run-sequence": "^2.2.1"
+  }
+}
